@@ -1,0 +1,23 @@
+# Xcode / XcodeGen
+*.xcodeproj
+*.xcworkspace
+!Packages/**/*.xcworkspace
+DerivedData/
+build/
+.build/
+.swiftpm/
+xcuserdata/
+
+# Secrets and signing
+*.p8
+*.p12
+*.mobileprovision
+*.xcconfig.local
+.env*
+
+# Never commit real meeting data
+Recordings/
+*.journal.jsonl
+SpikeResults/
+
+.DS_Store
